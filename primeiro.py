@@ -16,6 +16,7 @@ match opc:
 """        
         
 #entre 3 numero daber maior meio e menor
+#exercicio
 
 num1 = 3
 num2 = 2
