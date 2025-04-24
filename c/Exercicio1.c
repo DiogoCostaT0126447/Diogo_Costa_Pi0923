@@ -4,15 +4,13 @@
 
 int main() {
     int segundos;
-
-    printf("Insira o tempo em segundos: ");
-    scanf("%d", &segundos);
-
     int horas = segundos / 3600;
     segundos %= 3600;
     int minutos = segundos / 60;
     segundos %= 60;
-
+    
+    printf("Insira o tempo em segundos: ");
+    scanf("%d", &segundos);
     printf("O numero inserido equivale a %d Horas, %d Minutos e %d Segundos.\n", horas, minutos, segundos);
 
     return 0;
